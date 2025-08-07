@@ -1,0 +1,62 @@
+SARAH JOHNSON
+Senior Software Developer
+sarah.johnson@email.com | (555) 987-6543 | LinkedIn: linkedin.com/in/sarahjohnson
+
+PROFESSIONAL SUMMARY
+Results-driven Senior Software Developer with 7+ years of experience in full-stack web development. Expertise in React, Node.js, Python, and cloud technologies. Proven track record of leading development teams and delivering scalable applications that serve millions of users.
+
+TECHNICAL SKILLS
+• Programming Languages: JavaScript, Python, Java, TypeScript, C++
+• Frontend: React, Vue.js, Angular, HTML5, CSS3, SASS, Bootstrap
+• Backend: Node.js, Express.js, Django, Flask, Spring Boot
+• Databases: PostgreSQL, MongoDB, MySQL, Redis
+• Cloud & DevOps: AWS, Docker, Kubernetes, Jenkins, CI/CD
+• Tools: Git, Jira, Figma, Postman, VS Code
+
+PROFESSIONAL EXPERIENCE
+
+Senior Software Developer | TechCorp Inc. | 2021 - Present
+• Led a team of 5 developers in building a customer management platform using React and Node.js
+• Implemented microservices architecture that improved system performance by 40%
+• Designed and developed RESTful APIs serving 2M+ daily requests
+• Mentored junior developers and conducted code reviews
+• Collaborated with product managers and designers to deliver user-centric solutions
+
+Software Developer | InnovateSoft | 2019 - 2021
+• Developed responsive web applications using React and Redux
+• Built automated testing suites that reduced bug reports by 60%
+• Optimized database queries resulting in 25% faster page load times
+• Participated in agile development processes and sprint planning
+
+Junior Developer | StartupXYZ | 2017 - 2019
+• Created dynamic web interfaces using JavaScript and CSS
+• Integrated third-party APIs and payment gateways
+• Assisted in database design and optimization
+• Contributed to open-source projects and company blog
+
+EDUCATION
+Bachelor of Science in Computer Science
+University of Technology | 2013 - 2017
+GPA: 3.8/4.0
+
+CERTIFICATIONS
+• AWS Certified Solutions Architect
+• Google Cloud Professional Developer
+• Scrum Master Certification
+
+PROJECTS
+E-Commerce Platform (2022)
+• Built a full-stack e-commerce solution using React, Node.js, and PostgreSQL
+• Implemented secure payment processing and inventory management
+• Deployed on AWS with auto-scaling capabilities
+
+Task Management App (2021)
+• Developed a collaborative task management application
+• Used React hooks and context API for state management
+• Integrated real-time notifications using WebSocket
+
+ACHIEVEMENTS
+• Increased team productivity by 30% through process improvements
+• Won "Developer of the Year" award at TechCorp Inc. (2022)
+• Speaker at React Conference 2023
+• Contributed to 15+ open-source projects with 500+ GitHub stars
