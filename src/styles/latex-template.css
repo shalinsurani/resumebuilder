@@ -1,0 +1,103 @@
+/* LaTeX Resume Template Styles */
+.latex-resume-template {
+  font-family: 'Times New Roman', Times, serif;
+  color: #222;
+  background: #fff;
+  padding: 32px;
+  max-width: 900px;
+  margin: 0 auto;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.latex-header {
+  border-bottom: 2px solid #222;
+  margin-bottom: 18px;
+  padding-bottom: 8px;
+  text-align: center;
+}
+.latex-name {
+  font-size: 2.2em;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+.latex-job-title {
+  font-size: 1.2em;
+  color: #444;
+  margin-bottom: 6px;
+}
+.latex-contact {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 0;
+}
+.latex-section {
+  margin-bottom: 18px;
+}
+.latex-section-title {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #222;
+  border-bottom: 1px solid #bbb;
+  margin-bottom: 6px;
+  padding-bottom: 2px;
+  letter-spacing: 0.5px;
+}
+.latex-experience-item, .latex-education-item, .latex-project-item, .latex-certification-item {
+  margin-bottom: 10px;
+}
+.latex-exp-header, .latex-edu-header {
+  font-weight: 600;
+  font-size: 1em;
+  margin-bottom: 2px;
+}
+.latex-exp-description, .latex-project-description {
+  margin-left: 18px;
+  font-size: 0.98em;
+}
+.latex-skills-categories {
+  margin-left: 8px;
+}
+.latex-skill-category {
+  margin-bottom: 2px;
+  font-size: 1em;
+}
+.latex-project-name {
+  font-weight: 600;
+}
+.latex-project-url {
+  color: #1a0dab;
+  margin-left: 4px;
+}
+.latex-project-technologies {
+  font-size: 0.95em;
+  color: #444;
+  margin-left: 8px;
+}
+.latex-cert-name {
+  font-weight: 600;
+}
+.latex-cert-issuer, .latex-cert-date {
+  color: #555;
+  margin-left: 4px;
+}
+.latex-additional-info-list {
+  margin-left: 18px;
+  font-size: 0.98em;
+}
+.latex-additional-info-item {
+  margin-bottom: 2px;
+}
+.latex-edu-gpa {
+  font-size: 0.95em;
+  color: #444;
+  margin-left: 8px;
+}
+@media print {
+  .latex-resume-template {
+    box-shadow: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+  }
+}

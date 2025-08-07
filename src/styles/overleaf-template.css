@@ -1,0 +1,75 @@
+/* overleaf-template.css: Styles for OverleafTemplate resume layout */
+.overleaf-template {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #fff;
+  color: #222;
+  padding: 32px;
+  max-width: 900px;
+  margin: 0 auto;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+}
+.overleaf-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 16px;
+  margin-bottom: 24px;
+}
+.overleaf-photo {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 24px;
+  border: 2px solid #e0e0e0;
+}
+.overleaf-name {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 0;
+}
+.overleaf-title {
+  font-size: 1.1rem;
+  color: #666;
+  margin: 4px 0 0 0;
+}
+.overleaf-contact {
+  font-size: 0.98rem;
+  color: #444;
+  margin-top: 8px;
+}
+.overleaf-main section {
+  margin-bottom: 24px;
+}
+.overleaf-main h2 {
+  font-size: 1.15rem;
+  color: #2a5d84;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 2px;
+}
+.overleaf-section {
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+.overleaf-skill {
+  display: inline-block;
+  background: #eaf6fb;
+  color: #2a5d84;
+  padding: 4px 10px;
+  margin: 2px 6px 2px 0;
+  border-radius: 12px;
+  font-size: 0.98rem;
+}
+@media print {
+  .overleaf-template {
+    box-shadow: none;
+    padding: 0;
+    max-width: 100%;
+  }
+  .overleaf-header {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+    margin-bottom: 12px;
+  }
+}
