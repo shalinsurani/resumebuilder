@@ -1,0 +1,479 @@
+/* Modern 69 Template Styles */
+.modern69-container {
+  max-width: 794px; /* A4 width in pixels at 96 DPI */
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  line-height: 1.4;
+  background: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 0;
+}
+
+.modern69-column-container {
+  display: flex;
+  width: 100%;
+  min-height: 11in;
+}
+
+/* Left Column - 31% width */
+.modern69-left-column {
+  width: 31%;
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-right: 4pt solid #e10000;
+}
+
+/* Right Column - 69% width */
+.modern69-right-column {
+  width: 69%;
+  padding: 15px;
+}
+
+/* Profile Photo */
+.modern69-photo-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.modern69-profile-photo {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+/* Section Styles */
+.modern69-section {
+  margin-bottom: 15px;
+}
+
+.modern69-section-title {
+  font-size: 1.0em;
+  font-weight: bold;
+  color: #464646;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 0 0 10px 0;
+  padding-bottom: 5px;
+  border-bottom: 2pt solid #e10000;
+}
+
+/* Skills Section */
+.modern69-skills-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.modern69-skill-category {
+  font-size: 0.8em;
+}
+
+.modern69-skill-category-title {
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #464646;
+  margin: 0 0 5px 0;
+}
+
+.modern69-skills-list {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.modern69-skill-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modern69-skill-name {
+  font-size: 0.8em;
+  color: #555;
+}
+
+.modern69-skill-level {
+  font-size: 0.8em;
+  color: #777;
+}
+
+/* Contact Information */
+.modern69-contact-content {
+  font-size: 0.8em;
+}
+
+.modern69-contact-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 8px;
+  gap: 8px;
+}
+
+.modern69-contact-icon {
+  color: #e10000;
+  width: 16px;
+  /* text-align: center; */
+  font-size: 0.8em;
+}
+
+/* Education Section */
+.modern69-education-content {
+  font-size: 0.8em;
+}
+
+.modern69-education-item {
+  margin-bottom: 15px;
+}
+
+.modern69-education-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 3px;
+}
+
+.modern69-education-date {
+  font-size: 0.8em;
+  color: #777;
+  font-style: italic;
+}
+
+.modern69-education-institution {
+  font-size: 1.0em;
+  font-weight: bold;
+  color: #464646;
+  margin: 0 0 3px 0;
+}
+
+.modern69-education-degree {
+  font-size: 1.0em;
+  color: #777;
+  font-weight: normal;
+  margin: 0 0 3px 0;
+}
+
+.modern69-education-gpa {
+  font-size: 1.0em;
+  color: #555;
+  margin: 0;
+}
+
+.modern69-education-description {
+  font-size: 0.8em;
+  color: #555;
+  margin: 5px 0 0 0;
+}
+
+/* Certifications Section */
+.modern69-certifications-content {
+  font-size: 0.8em;
+}
+
+.modern69-certification-item {
+  margin-bottom: 15px;
+}
+
+.modern69-certification-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 3px;
+}
+
+.modern69-certification-name {
+  font-size: 1.0em;
+  font-weight: bold;
+  color: #464646;
+  margin: 0;
+}
+
+.modern69-certification-date {
+  font-size: 0.8em;
+  color: #777;
+  font-style: italic;
+}
+
+.modern69-certification-issuer {
+  font-size: 1.0em;
+  color: #777;
+  margin: 0 0 -9px 0;
+}
+
+.modern69-certification-description {
+  font-size: 0.8em;
+  color: #555;
+  margin: 5px 0 0 0;
+}
+
+.modern69-certification-credential {
+  font-size: 0.8em;
+  color: #555;
+  margin: 5px 0 0 0;
+}
+
+.modern69-certification-link {
+  font-size: 0.8em;
+  color: #e10000;
+  text-decoration: none;
+}
+
+.modern69-certification-link:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+.modern69-header {
+  background-color: #464646;
+  color: white;
+  padding: 47px;
+  margin: -15px -15px 15px -15px;
+}
+
+.modern69-name {
+  font-size: 2.2em;
+  color: #F5F5F5;
+
+  font-weight: bold;
+  margin: 0 0 5px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.modern69-job-title {
+  /* font-size: 1.0em; */
+  font-weight: normal;
+  margin: 0;
+  color: #e10000;
+}
+
+/* Profile Summary */
+.modern69-profile-summary {
+  font-size: 0.8em;
+  color: #555;
+  margin: 0;
+  text-align: justify;
+}
+
+/* Work Experience */
+.modern69-experience-content {
+  font-size: 0.8em;
+}
+
+.modern69-experience-item {
+  margin-bottom: 15px;
+}
+
+.modern69-experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 3px;
+}
+
+.modern69-experience-company {
+  font-size: 1.0em;
+  font-weight: bold;
+  color: #464646;
+  margin: 0;
+}
+
+.modern69-experience-date {
+  font-size: 0.8em;
+  color: #777;
+  font-style: italic;
+}
+
+.modern69-date-box {
+  background-color: #e10000;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
+.modern69-experience-position {
+  font-size: 1.0em;
+  color: #777;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+}
+
+.modern69-experience-location {
+  font-size: 0.8em;
+  color: #777;
+  margin: 0 0 5px 0;
+}
+
+.modern69-experience-description ul {
+  margin: 5px 0 0 0;
+  padding-left: 15px;
+}
+
+.modern69-experience-description li {
+  font-size: 1.0em;
+  color: #555;
+  margin-bottom: 3px;
+  line-height: 1.6;
+}
+
+/* Projects Section */
+.modern69-projects-content {
+  font-size: 0.8em;
+}
+
+.modern69-project-item {
+  margin-bottom: 15px;
+}
+
+.modern69-project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 3px;
+}
+
+.modern69-project-name {
+  font-size: 1.0em;
+  font-weight: bold;
+  color: #464646;
+  margin: 0;
+}
+
+.modern69-project-link {
+  font-size: 0.8em;
+  color: #e10000;
+  text-decoration: none;
+}
+
+.modern69-project-link:hover {
+  text-decoration: underline;
+}
+
+.modern69-project-tech {
+  font-size: 1.0em;
+  color: #777;
+  margin: 5px 0;
+}
+
+.modern69-project-description ul {
+  margin: 5px 0 0 0;
+  padding-left: 15px;
+}
+
+.modern69-project-description li {
+  font-size: 1.0em;
+  color: #555;
+  margin-bottom: 3px;
+}
+
+/* Additional Information */
+.modern69-additional-content {
+  font-size: 0.8em;
+}
+
+.modern69-additional-item {
+  margin-bottom: 10px;
+}
+
+.modern69-additional-type {
+  font-size: 1.0em;
+  font-weight: bold;
+  color: #464646;
+  margin: 0 0 3px 0;
+}
+
+.modern69-additional-description {
+  font-size: 1.0em;
+  color: #555;
+  margin: 0;
+  margin-bottom: -8px;
+}
+
+/* Print Styles */
+@media print {
+  .modern69-container {
+    box-shadow: none;
+    padding: 0;
+    min-height: auto;
+  }
+  
+  .modern69-header {
+    margin-bottom: 0.2in;
+    padding-bottom: 0.15in;
+  }
+  
+  /* Ensure proper column layout for print */
+  .modern69-column-container {
+    display: flex !important;
+    width: 100% !important;
+    min-height: auto !important;
+    height: auto !important;
+  }
+  
+  .modern69-left-column {
+    width: 31% !important;
+    background-color: #f5f5f5 !important;
+    padding: 15px !important;
+    border-right: 4pt solid #e10000 !important;
+  }
+  
+  .modern69-right-column {
+    width: 69% !important;
+    padding: 15px !important;
+  }
+  
+  /* Page break styles for proper content flow */
+  .modern69-container {
+    page: auto;
+  }
+  
+  .modern69-page {
+    page-break-after: always;
+    break-after: page;
+    height: auto;
+    min-height: 297mm; /* A4 height */
+  }
+  
+  .modern69-section {
+    break-inside: auto;
+  }
+  
+  /* Allow sections to break across pages if needed */
+  .modern69-experience-content,
+  .modern69-projects-content,
+  .modern69-education-content {
+    break-inside: auto;
+  }
+  
+  .modern69-experience-item,
+  .modern69-project-item,
+  .modern69-education-item {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  
+  /* Fix for elements being cut off on right side */
+  .modern69-right-column {
+    overflow: visible !important;
+    width: 69% !important;
+  }
+  
+  /* Ensure proper spacing */
+  .modern69-container {
+    margin: 0 !important;
+    padding: 0.5in !important;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .modern69-column-container {
+    flex-direction: column;
+  }
+  
+  .modern69-left-column,
+  .modern69-right-column {
+    width: 100%;
+  }
+}

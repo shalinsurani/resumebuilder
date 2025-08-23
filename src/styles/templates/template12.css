@@ -1,0 +1,239 @@
+.t12-container {
+    max-width: 794px; /* A4 width */
+    margin: 0 auto;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    color: #1a1a1a;
+    line-height: 1.6;
+}
+
+.t12-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    gap: 30px;
+}
+
+.t12-photo-container {
+    flex: 0 0 120px;
+}
+
+.t12-photo {
+    width: 130px;
+    height: 130px;
+    border-radius: 4px;
+    object-fit: cover;
+    border: 2px solid #4a4a4a;
+}
+
+.t12-header-content {
+    flex: 1;
+}
+
+.t12-name {
+    font-size: 1.2em;
+    color: #1a1a1a;
+    /* margin: 0 0 10px 0; */
+    margin-bottom: 1px;
+    font-weight: bold;
+}
+
+.t12-contact-info {
+    /* display: flex; */
+    flex-wrap: wrap;
+    /* gap: 5px; */
+    font-size: 0.8em;
+}
+
+.t12-contact-info p {
+    margin: 0;
+    color: #4a4a4a;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.t12-section {
+    /* margin-bottom: 25px; */
+}
+
+.t12-section-title {
+    font-size: 1.0em;
+    color: #1a1a1a;
+    border-bottom: 2px solid #4a4a4a;
+    /* padding-bottom: 5px;
+    margin-bottom: 15px; */
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.t12-summary {
+    font-size: 0.8em;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.t12-experience-item, .t12-education-item {
+    margin-bottom: -10px;
+}
+
+.t12-experience-header, .t12-education-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 5px;
+}
+
+.t12-company, .t12-institution {
+    font-size: 0.9em;
+    font-weight: 100;
+    color: #1a1a1a;
+    margin: 0;
+}
+
+.t12-date {
+    font-size: 0.8em;
+    color: #4a4a4a;
+}
+
+.t12-position, .t12-degree {
+    font-size: 0.8em;
+    color: #1a1a1a;
+    /* font-weight: bold; */
+    margin: 10px 0;
+    margin-top: -10px;
+
+}
+
+.t12-responsibilities {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.t12-responsibilities li {
+    font-size: 0.8em;
+    color: #4a4a4a;
+    margin-bottom: 5px;
+}
+
+.t12-skill-category {
+    margin-bottom: 15px;
+}
+
+.t12-category-title {
+    font-size: 0.9em;
+    color: #1a1a1a;
+    margin: 10px 0 5px 0;
+    font-weight: bold;
+}
+
+.t12-skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.t12-skill-item {
+    font-size: 0.8em;
+    background-color: #f5f5f5;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #4a4a4a;
+}
+
+.t12-experience-description {
+    font-size: 0.8em;
+    color: #4a4a4a;
+    margin: 5px 0;
+    line-height: 1.4;
+    margin-bottom: 5px;
+}
+
+.t12-skill-level {
+    margin-left: 5px;
+    color: #666;
+}
+
+.t12-project-item {
+    margin-bottom: 15px;
+}
+
+.t12-project-title {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #1a1a1a;
+    margin: 0 0 5px 0;
+}
+
+.t12-project-description, .t12-project-tech {
+    font-size: 0.8em;
+    color: #4a4a4a;
+    margin: 2px 0;
+}
+
+.t12-certification-item {
+    /* margin-bottom: 15px; */
+}
+
+.t12-cert-name {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #1a1a1a;
+    margin: 0 0 5px 0;
+}
+
+.t12-cert-issuer {
+    font-size: 0.8em;
+    color: #4a4a4a;
+    margin: 0;
+}
+
+.t12-description {
+    font-size: 0.8em;
+    color: #4a4a4a;
+    margin: 5px 0;
+}
+
+.t12-additional-item {
+    /* margin-bottom: 15px; */
+}
+
+.t12-additional-type {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #1a1a1a;
+    margin: 0 0 0px 0;
+}
+
+.t12-additional-description {
+    font-size: 0.8em;
+    color: #4a4a4a;
+    margin: 0;
+}
+
+@media print {
+    .t12-container {
+        padding: 0;
+    }
+
+    .t12-photo {
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+    }
+
+    .t12-skill-item {
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+    }
+/* Ensure content isn't cut off */
+    .t12-section {
+        break-inside: avoid !important;
+    }
+    
+    /* Fix for elements being cut off on right side */
+    .t12-container {
+        overflow: visible !important;
+    }
+}

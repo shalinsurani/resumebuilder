@@ -1,0 +1,199 @@
+/* Template 1 CSS - Based on Jake Gutierrez LaTeX Resume */
+
+.template1-resume {
+  font-family: 'Fira Sans', 'Roboto', 'Noto Sans', 'Source Sans Pro', 'Cormorant Garamond', 'Charter', Arial, sans-serif;
+  background: #fff;
+  color: #222;
+  margin: 0 auto;
+  padding: 32px 40px;
+  max-width: 794px; /* A4 width */
+  box-sizing: border-box;
+}
+
+.template1-header {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.template1-title {
+  font-size: 2.2em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.template1-contact {
+  font-size: 0.8em;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.template1-section-heading {
+  font-size: 1.0em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 18px;
+  margin-bottom: 2px;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid #222;
+  padding-bottom: 2px;
+}
+
+.template1-description {
+  font-size: 0.8em;
+  margin: 0;
+  color: #222;
+}
+
+/* Education */
+.template1-education-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.template1-education-item {
+  margin-bottom: 2px;
+}
+.template1-edu-row1 {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 0.8em;
+}
+.template1-edu-row2 {
+  display: flex;
+  gap: 8px;
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+/* Achievements */
+.template1-achievements-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.template1-achievement-item {
+  margin-bottom: 2px;
+}
+
+/* Experience */
+.template1-experience-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.template1-experience-item {
+  margin-bottom: 2px;
+}
+.template1-exp-row1 {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 0.8em;
+}
+.template1-exp-row2 {
+  display: flex;
+  gap: 8px;
+  font-size: 0.8em;
+  font-style: italic;
+}
+.template1-exp-highlights {
+  margin: 0 0 0 16px;
+  padding: 0;
+  font-size: 0.8em;
+}
+
+/* Internships */
+.template1-internship-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.template1-internship-item {
+  margin-bottom: 2px;
+}
+.template1-intern-row1 {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 0.8em;
+}
+.template1-intern-row2 {
+  display: flex;
+  gap: 8px;
+  font-size: 0.8em;
+  font-style: italic;
+}
+.template1-intern-highlights {
+  margin: 0 0 0 16px;
+  padding: 0;
+  font-size: 0.8em;
+}
+
+/* Hackathons */
+.template1-hackathon-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.template1-hackathon-item {
+  margin-bottom: 2px;
+}
+.template1-hack-row1 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  font-size: 0.8em;
+}
+.template1-hack-highlights {
+  margin: 0 0 0 16px;
+  padding: 0;
+  font-size: 0.8em;
+}
+
+/* Print Styles */
+@media print {
+  .template1-resume {
+    box-shadow: none;
+    padding: 0;
+    margin: 0 !important;
+    padding: 0.5in !important;
+  }
+  
+  /* Ensure content isn't cut off */
+  .template1-section {
+    break-inside: avoid !important;
+  }
+  
+  /* Fix for elements being cut off on right side */
+  .template1-resume {
+    overflow: visible !important;
+  }
+}
+
+/* Github Projects */
+.template1-github-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.template1-github-item {
+  margin-bottom: 2px;
+}
+.template1-github-row1 {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 0.8em;
+}
+.template1-github-highlights {
+  margin: 0 0 0 16px;
+  padding: 0;
+  font-size: 0.8em;
+}

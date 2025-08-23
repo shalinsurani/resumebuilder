@@ -1,0 +1,4 @@
+changes in resum builder
+
+-> Export in high quality and proper formate
+

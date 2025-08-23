@@ -1,0 +1,20 @@
+John Doe
+Software Engineer
+john.doe@email.com
+(555) 123-4567
+
+SUMMARY
+Experienced software engineer with 5 years of experience in web development.
+
+SKILLS
+JavaScript, React, Node.js, Python, SQL
+
+EXPERIENCE
+Software Engineer at Tech Company (2020-2024)
+- Developed web applications using React and Node.js
+- Worked with databases and APIs
+- Collaborated with cross-functional teams
+
+EDUCATION
+Bachelor of Computer Science
+University of Technology (2016-2020)

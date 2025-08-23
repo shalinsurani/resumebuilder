@@ -1,0 +1,321 @@
+.t31-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 794px; /* A4 width in pixels at 96 DPI */
+  margin: 0 auto;
+  padding: 30px;
+  color: #333;
+  line-height: 1.5;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.t31-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2px;
+  padding-bottom: 2px;
+  border-bottom: 2px solid #cfdbe7;
+}
+
+.t31-photo-section {
+  flex: 0 0 120px;
+  text-align: right;
+}
+
+.t31-photo {
+  width: 100px;
+  height: 100px;
+  /* border-radius: 50%; */
+  object-fit: cover;
+  /* border: 3px solid #2c3e50; */
+  margin-top: -10px;
+}
+
+.t31-header-content {
+  flex: 1;
+}
+
+.t31-name {
+  font-size: 1.10em;
+  margin: 0 0 0.5px 0;
+  color: #2c3e50;
+  font-weight: 700;
+}
+
+.t31-job-title {
+  font-size: 1.0em;
+  /* margin: 0 0 15px 0; */
+  color: #7f8c8d;
+  font-weight: 600;
+}
+
+.t31-contact-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  line-height: 0.5;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  gap: 5px;
+  font-size: 0.8em;
+  max-width: 500px;
+}
+
+.t31-contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+.t31-contact-label {
+  font-weight: 600;
+  /* margin-right: 5px; */
+  color: #2c3e50;
+  min-width: 20px;
+  /* margin-right: 10px; */
+}
+
+.t31-section {
+  margin-bottom: 5px;
+}
+
+.t31-section-title {
+  font-size: 0.8em;
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  /* padding-bottom: 5px; */
+  /* margin: 0 0 15px 0; */
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.t31-summary-content {
+  font-size: 0.8em;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 0%;
+}
+
+.t31-experience-item,
+.t31-education-item {
+  margin-bottom: 2px;
+}
+
+.t31-experience-header,
+.t31-education-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -8px;
+}
+
+.t31-company-name,
+.t31-institution {
+  font-size: 0.8em;
+  font-weight: 700;
+  color: #2c3e50;
+  margin: 0;
+}
+
+.t31-position,
+.t31-degree {
+  font-size: 0.8em;
+  color: #7f8c8d;
+  font-weight: 600;
+  margin: 3px 0;
+}
+
+.t31-field-of-study {
+  font-size: 0.8em;
+  color: #7f8c8d;
+  font-style: italic;
+  margin: 3px 0;
+}
+
+.t31-experience-duration,
+.t31-education-duration {
+  font-size: 0.8em;
+  color: #7f8c8d;
+  font-style: italic;
+}
+
+.t31-experience-description,
+.t31-education-description {
+  font-size: 0.8em;
+  color: #555;
+  margin: 2px 0 0 0;
+  line-height: 1.5;
+}
+
+.t31-projects-list,
+.t31-skills-list,
+.t31-certifications-list {
+  margin-top: 10px;
+}
+
+.t31-project-item,
+.t31-certification-item {
+  margin-bottom: 5px;
+}
+
+.t31-project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.t31-project-name,
+.t31-cert-name {
+  font-size: 0.8em;
+  font-weight: 700;
+  color: #2c3e50;
+  margin: 0;
+  margin-bottom: -5px;
+}
+
+.t31-project-link,
+.t31-cert-verify-link {
+  color: #3498db;
+  text-decoration: none;
+  font-size: 0.6em;
+}
+
+.t31-project-link:hover,
+.t31-cert-verify-link:hover {
+  text-decoration: underline;
+}
+
+.t31-project-technologies {
+  margin: 5px 0;
+}
+
+.t31-tech-tag {
+  display: inline-block;
+  background-color: #ecf0f1;
+  color: #7f8c8d;
+  font-size: 0.6em;
+  padding: 2px 8px;
+  border-radius: 10px;
+  margin-right: 5px;
+  margin-bottom: 3px;
+}
+
+.t31-project-description {
+  font-size: 0.8em;
+  color: #555;
+  margin: -5px 0 0 0;
+  line-height: 1.5;
+}
+
+.t31-skills-container {
+  display: flex;
+  flex-direction: column;
+  /* gap: 15px; */
+}
+
+.t31-skill-category {
+  margin-bottom: 4px;
+}
+
+.t31-skill-category-title {
+  font-size: 0.8em;
+  font-weight: 700;
+  color: #2c3e50;
+  margin: 0 0 5px 0;
+}
+
+.t31-category-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.t31-skill-item {
+  font-size: 0.6em;
+  background-color: #55bbff;
+  color: white;
+  padding: 3px 5px;
+  border-radius: 15px;
+}
+
+.t31-cert-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.t31-cert-issuer {
+  font-size: 0.8em;
+  color: #7f8c8d;
+  margin: 3px 0;
+}
+
+.t31-cert-details {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8em;
+  color: #7f8c8d;
+  margin: 3px 0;
+}
+
+.t31-cert-date,
+.t31-cert-id {
+  /* margin-right: 15px; */
+}
+
+.t31-additional-content {
+  font-size: 0.8em;
+  color: #555;
+  line-height: 1.6;
+}
+
+.t31-additional-item {
+  /* margin-bottom: 15px; */
+}
+
+.t31-additional-type {
+  font-size: 1.0em;
+  font-weight: 700;
+  color: #2c3e50;
+  /* margin: 0 0 5px 0; */
+  margin-bottom: 1px;
+}
+
+.t31-additional-description {
+  margin: 0;
+}
+
+.t31-custom-links {
+  margin-top: 10px;
+}
+
+.t31-custom-link {
+  font-size: 0.8em;
+  color: #3498db;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 3px;
+}
+
+.t31-custom-link:hover {
+  text-decoration: underline;
+}
+
+@media print {
+  .t31-container {
+    box-shadow: none;
+    padding: 20px;
+  }
+  
+  .t31-photo {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+  
+  .t31-skill-item {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+}

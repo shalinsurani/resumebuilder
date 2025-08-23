@@ -1,0 +1,172 @@
+/* Project Description Styling */
+.project-description {
+  font-size: 0.8em;
+  color: #222;
+  margin: 2px 0 4px 0;
+  line-height: 1.5;
+}
+/* Professional2 Resume Template CSS */
+.professional2-resume {
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  background: #fff;
+  color: #222;
+  max-width: 794px; /* A4 width */
+  margin: 24px auto 0 auto;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  border-radius: 8px;
+  padding: 32px 40px 24px 40px;
+}
+.resume-header {
+  text-align: center;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+}
+.resume-header h1, .resume-header h2 {
+  font-size: 1em;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.contact-info {
+  display: flex;
+  justify-content: center;
+  /* gap: 18px; */
+  font-size: 1em;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+}
+.contact-info a {
+  color: #1565c0;
+  text-decoration: underline;
+  font-weight: 500;
+}
+section {
+  /* margin-bottom: 18px; */
+  margin-top: 0;
+}
+section h2 {
+  font-size: 1em;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 6px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 2px;
+  letter-spacing: 0.5px;
+}
+.profile-summary {
+  font-size: 0.8em;
+  color: #444;
+  margin-bottom: 10px;
+}
+.education, .achievements, .experience, .internships, .hackathons, .projects {
+  font-size: 0.8em;
+  margin-bottom: 10px;
+}
+.education-header h3, .education-header span, .education-header .gpa {
+  font-size: 0.8em !important;
+  /* font-weight: 600; */
+  display: inline;
+}
+.education-header .gpa {
+  font-weight: 400;
+}
+.skills {
+  font-size: 0.8em;
+}
+.skills-categories h4 {
+  font-size: 0.8em;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.skills-categories ul, .skills-categories p {
+  font-size: 0.8em;
+  margin-bottom: 2px;
+}
+.skills-categories ul {
+  list-style: none;
+  padding-left: 0;
+}
+.skills-categories li {
+  display: inline;
+}
+.skills-categories li:not(:last-child):after {
+  content: ', ';
+}
+.certifications {
+  font-size: 0.8em;
+}
+.certification-item h3, .certification-item span {
+  font-size: 0.8em !important;
+  font-weight: 600;
+  display: inline;
+}
+.additional-info {
+  font-size: 0.8em;
+}
+.additional-info ul, .additional-info li {
+  font-size: 0.8em;
+}
+/* Remove box styling from items */
+.experience-item, .education-item, .project-item, .certification-item {
+  background: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  padding: 0 !important;
+  margin-bottom: 6px;
+  
+}
+.resume-subheading {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+.resume-subheading .left {
+  color: #222;
+}
+.resume-subheading .right {
+  color: #666;
+  font-size: 0.98em;
+}
+.resume-details {
+  font-size: 0.98em;
+  color: #555;
+  margin-bottom: 6px;
+}
+@media (max-width: 600px) {
+  .professional2-resume {
+    padding: 10px 2px 8px 2px;
+  }
+  .resume-header h1, .resume-header h2 {
+    font-size: 1em;
+  }
+  section h2 {
+    font-size: 1em;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .professional2-resume {
+    box-shadow: none;
+    padding: 0;
+    margin: 0 !important;
+    padding: 0.5in !important;
+  }
+  
+  .resume-header {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+    margin-bottom: 12px;
+  }
+  
+  /* Ensure content isn't cut off */
+  section {
+    break-inside: avoid !important;
+  }
+  
+  /* Fix for elements being cut off on right side */
+  .professional2-resume {
+    overflow: visible !important;
+  }
+}

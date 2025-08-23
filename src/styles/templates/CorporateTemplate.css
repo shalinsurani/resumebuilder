@@ -1,0 +1,353 @@
+/* Corporate Template Styles */
+.corporate-template {
+  background: var(--color-white);
+  color: #000;
+  padding: 0.35in;
+  font-family: 'Calibri', 'Arial', sans-serif;
+  /* font-size: 9.5px; */
+  line-height: 1.15;
+  max-width: 8.5in;
+  min-height: 11in;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.corporate-template .resume-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #1f2937;
+}
+
+.corporate-template .header-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  width: 100%;
+}
+
+.corporate-template .personal-info {
+  flex: 1;
+}
+
+.corporate-template .name {
+  font-size: 25px;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.job-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #666;
+    margin: 4px 0 8px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;  
+}
+
+.corporate-template .contact-info {
+  font-size: 13px;
+  color: #374151;
+}
+
+.corporate-template .contact-row {
+  margin-bottom: 2px;
+}
+
+.corporate-template .photo-container {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 2px solid #1f2937;
+}
+
+.corporate-template .profile-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.corporate-template .section-title {
+  font-size: 1.0em;
+  font-weight: bold;
+  color: #1f2937;
+  margin-top: 5px;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid #d1d5db;
+  padding-bottom: 2px;
+}
+
+.corporate-template .resume-section {
+  margin-bottom: -2px;
+}
+
+.corporate-template .summary-text {
+  margin-bottom: 5px;
+  text-align: justify;
+  font-size: 0.8em;
+}
+
+/* Experience Section */
+.corporate-template .corp-experience-item {
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  font-size: 0.8em;
+  margin-bottom: 5px;
+}
+
+.corporate-template .corp-experience-item .experience-header {
+  margin-bottom: 4px;
+  /* font-size: 0.8em; */
+}
+
+.corporate-template .corp-experience-item .position-company {
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 2px;
+  font-size: 1.0em;
+}
+
+.corporate-template .corp-experience-item .position {
+  color: #1f2937;
+  font-weight: 600;
+  font-size: 1.0em;
+}
+
+.corporate-template .corp-experience-item .company {
+  color: #6b7280;
+  font-weight: 500;
+  font-size: 1.0em;
+}
+
+.corporate-template .corp-experience-item .dates {
+  color: #6b7280;
+  font-size: 1.0em;
+  font-style: italic;
+  margin-bottom: 6px;
+}
+
+.corporate-template .corp-experience-item .experience-description {
+  color: #374151;
+  line-height: 1.5;
+  font-size: 1.2em;
+}
+
+.corporate-template .corp-experience-item .description-line {
+  margin-bottom: 2px;
+  color: #374151;
+}
+
+/* Education Section */
+.corporate-template .corp-education-item {
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  margin-bottom: 1px;
+  /* font-size: 0.8em; */
+}
+
+.corporate-template .corp-education-item .degree-institution {
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 2px;
+  /* font-size: 0.8em; */
+}
+
+.corporate-template .corp-education-item .degree {
+  color: #1f2937;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+.corporate-template .corp-education-item .field {
+  color: #374151;
+  font-weight: 500;
+  font-size: 0.8em;
+}
+
+.corporate-template .corp-education-item .institution {
+  color: #6b7280;
+  font-weight: 500;
+  font-size: 0.8em;
+}
+
+.corporate-template .corp-education-item .dates {
+  color: #6b7280;
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+.corporate-template .corp-education-item .gpa {
+  color: #6b7280;
+  font-size: 0.8em;
+  margin-top: 2px;
+}
+
+/* Skills Section */
+.corporate-template .corp-skill-category {
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  /* font-size: 0.8em; */
+  margin-bottom: 2px;
+}
+
+.corporate-template .corp-skill-category .category-title {
+  font-weight: 600;
+  color: #1f2937;
+  font-size: 1.1em;
+  margin-bottom: 3px;
+  margin-top: 0;
+  font-size: 0.8em;
+}
+
+.corporate-template .corp-skill-category .skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 0.8em;
+}
+
+.corporate-template .corp-skill-item {
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  /* font-size: 0.8em; */
+  margin: 0;
+}
+
+.corporate-template .corp-skill-item .skill-name {
+  color: #374151;
+  font-weight: 500;
+  /* font-size: 0.8em; */
+}
+
+.corporate-template .corp-skill-item .skill-level {
+  color: #6b7280;
+  font-size: 0.8em;
+}
+
+/* Projects Section */
+.corporate-template .corp-project-item {
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+.corporate-template .corp-project-item .project-header {
+  margin-bottom: 4px;
+}
+
+.corporate-template .corp-project-item .project-name {
+  font-weight: 600;
+  font-size: 1.0em;
+  color: #1f2937;
+}
+
+.corporate-template .corp-project-item .project-url {
+  color: #6b7280;
+  font-weight: 500;
+}
+
+.corporate-template .corp-project-item .project-description {
+  color: #374151;
+  line-height: 1.5;
+  margin-bottom: 4px;
+  font-size: 0.8em;
+}
+
+.corporate-template .corp-project-item .project-technologies {
+  color: #6b7280;
+  font-size: 0.8em;
+}
+
+/* Certifications Section */
+.corporate-template .corp-certification-item {
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+.corporate-template .corp-certification-item .cert-name {
+  font-weight: 600;
+  color: #1f2937;
+  font-size: 0.8em;
+}
+
+.corporate-template .corp-certification-item .cert-issuer,
+.corporate-template .corp-certification-item .cert-date {
+  color: #6b7280;
+  font-size: 0.8em;
+}
+
+/* Additional Info Section */
+.corporate-template .corp-additional-info-item {
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+.corporate-template .corp-additional-info-item .info-type {
+  font-weight: 600;
+  font-size: 0.8em;
+  color: #1f2937;
+}
+
+.corporate-template .corp-additional-info-item .info-description {
+ font-size: 0.8em;
+    color: #374151;
+}
+
+/* Print Styles */
+@media print {
+  .corporate-template {
+    padding: 0.35in !important;
+    box-shadow: none !important;
+    margin: 0 !important;
+  }
+  
+  .corporate-template .resume-section {
+    break-inside: avoid !important;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .corporate-template {
+    padding: 0.25in;
+  }
+
+  .corporate-template .header-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .corporate-template .personal-info {
+    text-align: center;
+  }
+
+  .corporate-template .photo-container {
+    margin: 0 auto 15px;
+  }
+}

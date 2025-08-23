@@ -1,0 +1,326 @@
+/* Modern 21 Template Styles */
+.modern21-container {
+  max-width: 794px; /* A4 width in pixels at 96 DPI */
+  margin: 0 auto;
+  padding: 30px;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  line-height: 1.4;
+  background: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+.modern21-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 3px;
+  /* padding-bottom: 0.2in; */
+  border-bottom: 1px solid #ddd;
+}
+
+.modern21-header-content {
+  flex: 1;
+}
+
+.modern21-name {
+  font-size: 1.10em;
+  font-weight: bold;
+  /* margin: 0 0 0.1in 0; */
+  margin-top: 4px;
+  margin-bottom: 1px;
+  color: #2c3e50;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.modern21-job-title {
+  font-size: 1.0em;
+  font-weight: normal;
+  /* margin: 0 0 0.2in 0; */
+  /* margin-top: 5px; */
+  color: #7f8c8d;
+}
+
+/* Contact Information */
+.modern21-contact-section {
+  text-align: right;
+  font-size: 0.8em;
+  line-height: 1px;
+}
+
+.modern21-contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 0.1in;
+  gap: 0.1in;
+}
+
+.modern21-contact-item i {
+  color: #2c3e50;
+  width: 0.6em;
+  text-align: center;
+}
+
+/* Section Styles */
+.modern21-section {
+      margin-bottom: 2px;
+}
+
+.modern21-section-title {
+  font-size: 1.0em;
+  font-weight: bold;
+  color: #2c3e50;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  /* margin: 0 0 0.15in 0; */
+  /* padding-bottom: 0.05in; */
+  border-bottom: 1px solid #2c3e50;
+}
+
+/* Summary */
+.modern21-summary {
+  font-size: 0.8em;
+  color: #555;
+  margin: 0 0 0.0in 0;
+  text-align: justify;
+}
+
+/* Experience & Education */
+.modern21-experience-item,
+.modern21-education-item {
+      margin-bottom: 2px;
+}
+
+.modern21-experience-header{
+     display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: -7px;
+}
+.modern21-education-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  /* margin-bottom: 0.05in; */
+}
+
+.modern21-company,
+.modern21-institution {
+  font-size: 0.8em;
+  font-weight: bold;
+  color: #2c3e50;
+  margin: 0;
+}
+
+.modern21-position,
+.modern21-degree {
+  font-size: 0.8em;
+  font-weight: bold;
+  color: #7f8c8d;
+  /* margin: 0 0 0.1in 0; */
+      margin-bottom: 3px;
+}
+
+.modern21-date {
+  font-size: 0.8em;
+  color: #7f8c8d;
+  font-style: italic;
+  white-space: nowrap;
+}
+
+.modern21-gpa {
+  font-size: 0.8em;
+  color: #555;
+  margin: 0.05in 0;
+}
+
+.modern21-responsibilities ul,
+.modern21-project-description ul {
+  margin: 0.1in 0 0 0;
+  padding-left: 0.2in;
+}
+
+.modern21-responsibilities li,
+.modern21-project-description li {
+  font-size: 0.8em;
+  color: #555;
+  margin-bottom: 0.05in;
+}
+
+/* Skills */
+.modern21-skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.1in;
+}
+
+.modern21-skill-category {
+  flex: 1;
+  min-width: 2in;
+}
+
+.modern21-skill-category-title {
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #2c3e50;
+  margin: 0 0 0.1in 0;
+}
+
+.modern21-skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.1in;
+}
+
+.modern21-skill-item {
+  font-size: 0.8em;
+  background-color: #f8f9fa;
+  padding: 0.05in 0.1in;
+  border-radius: 0.1in;
+  color: #555;
+}
+
+/* Projects */
+.modern21-project-item {
+  /* margin-bottom: 0.2in; */
+}
+
+.modern21-project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.05in;
+}
+
+.modern21-project-name {
+  font-size: 0.8em;
+  font-weight: bold;
+  color: #2c3e50;
+  margin: 0;
+}
+
+.modern21-project-link {
+  font-size: 0.8em;
+  color: #3498db;
+  text-decoration: none;
+}
+
+.modern21-project-link:hover {
+  text-decoration: underline;
+}
+
+.modern21-project-tech {
+  font-size: 0.8em;
+  margin-bottom: -7px;
+  color: #7f8c8d;
+  /* margin: 0.05in 0; */
+}
+
+/* Certifications */
+.modern21-certification-item {
+  /* margin-bottom: 0.2in; */
+}
+
+.modern21-certification-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  /* margin-bottom: 0.05in; */
+}
+
+.modern21-certification-name {
+  font-size: 0.8em;
+  font-weight: bold;
+  color: #2c3e50;
+  margin: 0;
+}
+
+.modern21-certification-issuer {
+  font-size: 0.8em;
+  color: #7f8c8d;
+  margin: 0 0 0.0in 0;
+}
+
+.modern21-credential-id {
+  font-size: 0.8em;
+  color: #555;
+  margin: 0.0in 0;
+}
+
+.modern21-certification-link {
+  font-size: 0.8em;
+  color: #3498db;
+  text-decoration: none;
+}
+
+.modern21-certification-link:hover {
+  text-decoration: underline;
+}
+
+/* Additional Information */
+.modern21-additional-info-item {
+  /* margin-bottom: 0.15in; */
+}
+
+.modern21-additional-info-type {
+  font-size: 0.8em;
+  font-weight: bold;
+  color: #2c3e50;
+  margin: 0 0 0.0in 0;
+}
+
+.modern21-additional-info-description {
+  font-size: 0.8em;
+  color: #555;
+  margin: 0;
+}
+
+/* Print Styles */
+@media print {
+  .modern21-container {
+    box-shadow: none;
+    padding: 0;
+    margin: 0 !important;
+    padding: 0.5in !important;
+  }
+  
+  .modern21-header {
+    margin-bottom: 0.2in;
+    padding-bottom: 0.15in;
+  }
+  
+  /* Ensure content isn't cut off */
+  .modern21-section {
+    break-inside: avoid !important;
+  }
+  
+  /* Fix for elements being cut off on right side */
+  .modern21-container {
+    overflow: visible !important;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .modern21-container {
+    padding: 0.3in;
+  }
+  
+  .modern21-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .modern21-contact-section {
+    text-align: left;
+    margin-top: 0.2in;
+  }
+  
+  .modern21-skills-container {
+    flex-direction: column;
+    gap: 0.15in;
+  }
+}
